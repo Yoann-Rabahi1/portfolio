@@ -406,7 +406,6 @@
   </footer>
 
   <script>
-    // Fonction pour basculer le mode sombre
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
       const icon = document.querySelector('.dark-toggle i');
@@ -419,7 +418,6 @@
       }
     }
     
-    // Navigation fluide
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -429,7 +427,6 @@
       });
     });
     
-    // Animation au défilement
     function checkVisible() {
       const sections = document.querySelectorAll('.section');
       sections.forEach(section => {
